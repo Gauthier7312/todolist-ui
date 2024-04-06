@@ -25,7 +25,7 @@ RHFTextFieldProps & InputProps) {
       control={control}
       render={({ field }) => (
         <FormItem>
-          <FormLabel>{label}</FormLabel>
+          <FormLabel className='text-sm'>{label}</FormLabel>
           <Input placeholder={placeholder} type={type ?? 'text'} {...field} />
           <FormMessage />
         </FormItem>
