@@ -1,8 +1,10 @@
-import React from 'react'
+import RegisterPageView from '@/sections/register/view';
+import React from 'react';
 
 export default function Page() {
   return (
-    <div>Inscrire</div>
-  )
+    <main className="min-h-screen">
+      <RegisterPageView />
+    </main>
+  );
 }
-
